@@ -78,4 +78,6 @@ console.log(nothing);
 //7. Undefined
 let time;
 console.log(time);
+// THANKS FOR WATCHING
+
 

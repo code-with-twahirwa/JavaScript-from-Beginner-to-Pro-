@@ -2,7 +2,7 @@
  * VARIABLES
  * A variable is a container or holder of information
  * A variable is declared  using some keywords like const or let in JS
- * We assign a variable a value using the equals
+ * We assign a variable a value using the equals sign
  */
 
 const firstName = "John";
@@ -19,13 +19,13 @@ console.log("His fullname is", fullName);
 const stringedNums = "01247";
 console.log(stringedNums);
 
-// 2. Numbers (numerical values)
+//2. Numbers (numerical values)
 const number = 1;
 let bigNumber = 1000;
 bigNumber = 1200;
 console.log(bigNumber);
 
-// 3. Boolean (A datatype represented by true or false)
+//3. Boolean (A datatype represented by true or false)
 const isTrue = true;
 console.log(isTrue);
 const isFalse = false;

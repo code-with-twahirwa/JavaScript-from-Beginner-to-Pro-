@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS tutorial</title>
+    <!-- <Script src="VariablesandDataTypes.js" defer></Script> -->
+    <Script src="Functions.js" defer></Script>
+</head>
+
+<body style="margin: 50px;">
+    <p>
+        <h1>JavaScript Functions</h1>
+    </p>
+    <h3> What is your name?</h3>
+    <P id="enter_name">
+        <input type="text" id="name_input" placeholder="Enter your full name">
+        <input type="submit" onclick="enterName()">
+    </P>
+
+    <h3>Print your full name in the developer console.</h3>
+    <button onclick="printFullName('Sam','Twahirwa')">Print name</button>
+
+    <h3>Name at least 5 countries in Africa.</h3>
+    <p>
+        <input type="text" id="countryName" placeholder="Enter country name" />
+        <input type="submit" onclick="addCountryName()" />
+    </p>
+    <p id="list_of_countries"></p>
+
+    <h3>Generate a random number between 0 and 100 and print it in the developer console.</h3>
+    <button onclick="generateRandomNumber()">Generate number</button>
+
+     <h3>Return a good bye message and print it in the developer console</h3>
+    <button onclick="printGoodBye()">Say good bye</button>
+</body>
+
+</html>

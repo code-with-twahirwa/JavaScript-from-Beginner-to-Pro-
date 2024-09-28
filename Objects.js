@@ -19,7 +19,7 @@ obj2["age"] = 20;
 obj2["homeTown"] = "Nyarusiza";
 console.log(obj2);
 
-//Accessing data in object
+//Accessing data in an object
 console.log(obj1.age);
 console.log(obj2["name"]);
 
